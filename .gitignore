@@ -1,0 +1,30 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# testing
+.jest-cache
+coverage
+junit.xml
+test-results
+
+# build
+build
+dist
+
+# misc
+.DS_Store
+.vscode
+.idea
+.ltcbin
+
+npm-debug.log*
+tunnel.log*
+yarn-debug.log*
+yarn-error.log*
+
+.env
+.yarn-cache
+.sentryclirc
+

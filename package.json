@@ -1,0 +1,27 @@
+{
+  "name": "react-module-federation",
+  "version": "1.0.0",
+  "description": "A Webpack Module Federation Case In React",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "npx lerna run start --parallel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavideBruner/react-module-federation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavideBruner/react-module-federation/issues"
+  },
+  "homepage": "https://github.com/DavideBruner/react-module-federation#readme",
+  "devDependencies": {
+    "lerna": "4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
